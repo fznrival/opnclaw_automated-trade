@@ -1,0 +1,12 @@
+{
+  "name": "ict_autotrade_scanner",
+  "description": "Menjalankan pemindaian algoritma ICT 2022 pada MT5 dan mengeksekusi order jika setup FVG dan OTE terpenuhi.",
+  "command": "wine python ~/mt5_openclaw/python/mt5_ict_executor.py",
+  "triggers": [
+    "cek sinyal market sekarang",
+    "jalankan scanner ict",
+    "scan market"
+  ],
+  "is_background": false,
+  "requires_confirmation": false
+}
